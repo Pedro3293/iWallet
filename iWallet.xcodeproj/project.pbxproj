@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B48F67B1E7EE1B40041843C /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B48F67A1E7EE1B40041843C /* WalletCell.swift */; };
 		3B57A72B1E7C4B9100C7EAC0 /* changequantityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57A72A1E7C4B9100C7EAC0 /* changequantityViewController.swift */; };
 		3B768ED01E7BCE00005F3610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768ECF1E7BCE00005F3610 /* AppDelegate.swift */; };
 		3B768ED21E7BCE00005F3610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768ED11E7BCE00005F3610 /* ViewController.swift */; };
@@ -15,11 +16,11 @@
 		3B768EDA1E7BCE00005F3610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B768ED81E7BCE00005F3610 /* LaunchScreen.storyboard */; };
 		3B768EE21E7BCE59005F3610 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768EE11E7BCE59005F3610 /* Wallet.swift */; };
 		3B768EE71E7BE48C005F3610 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768EE61E7BE48C005F3610 /* AddViewController.swift */; };
-		3B768EEB1E7BFB90005F3610 /* WalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768EEA1E7BFB90005F3610 /* WalletCell.swift */; };
 		3B768EED1E7C221F005F3610 /* showDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B768EEC1E7C221F005F3610 /* showDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B48F67A1E7EE1B40041843C /* WalletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalletCell.swift; path = iWallet/WalletCell.swift; sourceTree = "<group>"; };
 		3B57A72A1E7C4B9100C7EAC0 /* changequantityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changequantityViewController.swift; sourceTree = "<group>"; };
 		3B768ECC1E7BCE00005F3610 /* iWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B768ECF1E7BCE00005F3610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		3B768EDB1E7BCE00005F3610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B768EE11E7BCE59005F3610 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wallet.swift; path = iWallet/Wallet.swift; sourceTree = "<group>"; };
 		3B768EE61E7BE48C005F3610 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		3B768EEA1E7BFB90005F3610 /* WalletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletCell.swift; sourceTree = "<group>"; };
 		3B768EEC1E7C221F005F3610 /* showDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +86,8 @@
 		3B768EE41E7BDE00005F3610 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B48F67A1E7EE1B40041843C /* WalletCell.swift */,
 				3B768EE11E7BCE59005F3610 /* Wallet.swift */,
-				3B768EEA1E7BFB90005F3610 /* WalletCell.swift */,
 			);
 			name = Model;
 			path = ..;
@@ -181,8 +181,8 @@
 				3B768EE21E7BCE59005F3610 /* Wallet.swift in Sources */,
 				3B768ED21E7BCE00005F3610 /* ViewController.swift in Sources */,
 				3B768EED1E7C221F005F3610 /* showDetailViewController.swift in Sources */,
+				3B48F67B1E7EE1B40041843C /* WalletCell.swift in Sources */,
 				3B57A72B1E7C4B9100C7EAC0 /* changequantityViewController.swift in Sources */,
-				3B768EEB1E7BFB90005F3610 /* WalletCell.swift in Sources */,
 				3B768ED01E7BCE00005F3610 /* AppDelegate.swift in Sources */,
 				3B768EE71E7BE48C005F3610 /* AddViewController.swift in Sources */,
 			);
